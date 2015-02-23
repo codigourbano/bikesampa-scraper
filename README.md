@@ -1,6 +1,6 @@
 # Bike Sampa Scraper
 
-A Javascript client to [scrape](https://en.wikipedia.org/wiki/Web_scraping) [Bike Sampa map](http://ww2.mobilicidade.com.br/bikesampa/mapaestacao.asp) of bicycle sharing stations in São Paulo.
+A Javascript client to [scrape](https://en.wikipedia.org/wiki/Web_scraping) data from  [Bike Sampa](http://ww2.mobilicidade.com.br/bikesampa/mapaestacao.asp), a bicycle sharing system in São Paulo.
 
 ## Install
 
