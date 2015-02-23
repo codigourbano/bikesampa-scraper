@@ -1,0 +1,33 @@
+{
+  "name": "bikesampa-scraper",
+  "version": "0.1.0",
+  "description": "Scraper for Bike Sampa map",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=test mocha --reporter spec --bail --check-leaks --timeout 5000 test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vgeorge/bikesampa-scraper"
+  },
+  "keywords": [
+    "scraper",
+    "bicycle sharing",
+    "são paulo"
+  ],
+  "author": "Vitor George <vitor.george@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vgeorge/bikesampa-scraper/issues"
+  },
+  "homepage": "https://github.com/vgeorge/bikesampa-scraper",
+  "devDependencies": {
+    "mocha": "^2.1.0",
+    "should": "^5.0.0"
+  },
+  "dependencies": {
+    "cheerio": "^0.18.0",
+    "request": "^2.53.0",
+    "underscore": "^1.8.2"
+  }
+}
