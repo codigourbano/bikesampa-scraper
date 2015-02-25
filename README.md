@@ -29,3 +29,5 @@ scraper.scrape(function(err,stations){
 Write tests and run:
 
     npm test
+
+Currently tests are made directly to the live map.
