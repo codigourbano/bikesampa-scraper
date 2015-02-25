@@ -14,7 +14,7 @@ The following code will log to console station names and bikes available:
 
 ``` javascript
 var scraper = require('bikesampa-scraper');
-scraper.scrap(function(err,stations){
+scraper.scrape(function(err,stations){
   if (err) return console.log(err);
 
   for (var i = 0; i < stations.length; i++) {
