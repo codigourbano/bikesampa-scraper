@@ -5,7 +5,7 @@ var bikesampa = require('../lib/scraper.js')
 
 describe('scrap()', function(){
   it('should get valid data', function(done){
-    bikesampa.scrap(function(err, stations){
+    bikesampa.scrape(function(err, stations){
       should.not.exist(err);
       should.exist(stations);
       stations.should.be.instanceof(Array);

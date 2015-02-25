@@ -5,7 +5,7 @@ A Javascript client to [scrape](https://en.wikipedia.org/wiki/Web_scraping) data
 ## Install
 
 
-    npm install vgeorge/bikesampa-scraper
+    npm install codigourbano/bikesampa-scraper
 
 
 ## Example
